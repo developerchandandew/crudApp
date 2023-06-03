@@ -1,0 +1,23 @@
+.form{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 7px;
+    box-shadow: 5px 5px 8px red;
+    
+}
+input{
+    width: 40%;
+    padding: 1rem;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+.action{
+    width: 100%;
+    text-align: end;
+}
+.action button{
+    margin: 0 1rem 1rem 0;
+}

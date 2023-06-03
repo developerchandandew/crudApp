@@ -1,0 +1,42 @@
+.video{
+    width: fit-content;
+    float: left;
+    margin: 0 1rem;
+    position: relative;
+    border-radius: 7px;
+    padding: 5px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.video:hover{
+    border: 1px solid gray;
+
+}
+.video .del{
+    margin: 0;
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: red;
+}
+.video .edit{
+    position: absolute;
+    top: .5rem;
+    right: 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: greenyellow;
+}
+.title{
+    margin: 0;
+}
+.views{
+    margin: 0;
+
+}
+.upload{
+    margin: 0;
+    text-align: end;
+}
